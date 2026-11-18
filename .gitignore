@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+.vs/
+*.db
+*.db-shm
+*.db-wal
+*.user
+initial-credentials.txt
+deliverables/
+docs/rendered/
+appsettings.local.json
+tools/
+docs/template-*
+docs/report-outline.txt
+docs/test-results/

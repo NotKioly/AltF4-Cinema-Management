@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework><UseWindowsForms>true</UseWindowsForms><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../AltF4.Cinema.Core/AltF4.Cinema.Core.csproj" /><PackageReference Include="ReportViewerCore.WinForms" Version="15.1.33" /></ItemGroup>
+  <ItemGroup><Content Include="Reports\*.rdlc" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+</Project>
